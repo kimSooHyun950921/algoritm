@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class Main {
 
@@ -32,14 +34,16 @@ public class Main {
 
 		for (int i = 0; i < N; i++) {
 			int input = Integer.parseInt(br.readLine());
-			int findIndex = BinarySearch(inputNums, input);
+			// int findIndex = BinarySearch(inputNums, input);
 
-			inputNums.add(findIndex, input);
+			inputNums.add(input);
 			numForCount[input + 4000]++;
 
 			sum += input;
 
 		}
+		Sort sort = new Sort();
+		Collections.sort(inputNums, sort);
 		smallestNum = inputNums.get(0);
 		biggestNum = inputNums.get(inputNums.size() - 1);
 
@@ -60,54 +64,30 @@ public class Main {
 
 	private static int findCountVal(int[] numForCount, int big, int small) {
 		ArrayList<Integer> sameCount = new ArrayList<Integer>();
-		int count = numForCount[small+4000];
-		for (int i = small+4000; i <= big+4000; i++) {
+		int count = numForCount[small + 4000];
+		for (int i = small + 4000; i <= big + 4000; i++) {
 			if (numForCount[i] < count)
 				continue;
-			
-			
+
 			if (count < numForCount[i])
 				sameCount.removeAll(sameCount);
-			int findIndex = BinarySearch(sameCount, i - 4000);
-			sameCount.add(findIndex, i - 4000);
+			// int findIndex = BinarySearch(sameCount, i - 4000);
+			sameCount.add(i - 4000);
 			count = numForCount[i];
 		}
-		if(sameCount.size()>1)
+		if (sameCount.size() > 1)
 			return sameCount.get(1);
 		else
 			return sameCount.get(0);
-		
 
 	}
 
-	private static int BinarySearch(ArrayList<Integer> inputNums, int input) {
+}
+
+class Sort implements Comparator<Integer> {
+	@Override
+	public int compare(Integer arg0, Integer arg1) {
 		// TODO Auto-generated method stub
-		int first = 0;
-		int last = inputNums.size() - 1;
-		int middle = (first + last) / 2;
-		int index = 0;
-		if (inputNums.size() == 0)
-			return 0;
-		if (inputNums.get(first) > input)
-			return 0;
-		else if (inputNums.get(last) < input)
-			return inputNums.size();
-		while (last - first > 1) {
-			boolean isSameWithInput = inputNums.get(middle) ==input  || inputNums.get(first)==input || inputNums.get(last) ==input;
-			if (isSameWithInput) {
-				index = -1;
-				break;
-			}
-			if (inputNums.get(middle) > input)
-				last = middle;
-
-			else if (inputNums.get(middle) < input)
-				first = middle;
-
-			middle = (first + last) / 2;
-		}
-		index = last;
-		return index;
+		return arg0.compareTo(arg1);
 	}
-
 }
