@@ -251,12 +251,12 @@
 
 
 ##### :ballot_box_with_check: 31주차 문제 리스트(21-08-04)
-   1. 연구소3: https://www.acmicpc.net/problem/17142
-   2. 원판돌리기: https://www.acmicpc.net/problem/17822
-   3. 괄호: https://www.acmicpc.net/problem/10422
-   4. 우수마을: https://www.acmicpc.net/problem/1949
-   5. 알파벳: https://www.acmicpc.net/problem/1987
-   6. 트리: https://www.acmicpc.net/problem/4256
+   1. 모노미노도미노2: https://www.acmicpc.net/problem/20061
+   2. 청소년상어: https://www.acmicpc.net/problem/19236
+   3. 스타트택시: https://www.acmicpc.net/problem/19238
+   4. 새로운게임 2: https://www.acmicpc.net/problem/17837
+   5. 테트로미노: https://www.acmicpc.net/problem/14500
+   6. 연구소: https://www.acmicpc.net/problem/14502
 
 
 
