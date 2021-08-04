@@ -254,9 +254,18 @@
    1. 모노미노도미노2: https://www.acmicpc.net/problem/20061
    2. 청소년상어: https://www.acmicpc.net/problem/19236
    3. 스타트택시: https://www.acmicpc.net/problem/19238
-   4. 새로운게임 2: https://www.acmicpc.net/problem/17837
-   5. 테트로미노: https://www.acmicpc.net/problem/14500
-   6. 연구소: https://www.acmicpc.net/problem/14502
+   4. 테트로미노: https://www.acmicpc.net/problem/14500
+   5. 연구소: https://www.acmicpc.net/problem/14502
+
+
+##### :ballot_box_with_check: 32주차 문제 리스트(21-08-11)
+   1. 새로운게임 2: https://www.acmicpc.net/problem/17837
+   2. 내리막길: https://www.acmicpc.net/problem/1520
+   3. TwoDots: https://www.acmicpc.net/problem/16929
+   4. 소수의 연속합: https://www.acmicpc.net/problem/1644
+   5. 주사위 윷놀이: https://www.acmicpc.net/problem/17825
+   6. 카드 정렬하기: https://www.acmicpc.net/problem/1715
+
 
 
 
