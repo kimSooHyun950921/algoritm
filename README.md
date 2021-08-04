@@ -258,8 +258,13 @@
    5. 연구소: https://www.acmicpc.net/problem/14502
 
 
-##### :ballot_box_with_check: 31주차 문제 리스트(21-08-04)
+##### :ballot_box_with_check: 32주차 문제 리스트(21-08-11)
    1. 새로운게임 2: https://www.acmicpc.net/problem/17837
+   2. 내리막길: https://www.acmicpc.net/problem/1520
+   3. TwoDots: https://www.acmicpc.net/problem/16929
+   4. 소수의 연속합: https://www.acmicpc.net/problem/1644
+   5. 주사위 윷놀이: https://www.acmicpc.net/problem/17825
+   6. 카드 정렬하기: https://www.acmicpc.net/problem/1715
 
 
 
