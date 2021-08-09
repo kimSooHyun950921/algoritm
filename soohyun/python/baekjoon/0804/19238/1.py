@@ -20,10 +20,10 @@ def bfs_start(N, taxi_loc, board):
                     if board[r][c] > 1:
                         heappush(same, (cur_engine+1, r, c))
                     queue.append(((r, c), cur_engine+1))
-        if same:
-            heapify(same)
-            cur_engine, r, c= heappop(same)
-            return (r, c), cur_engine
+    if same:
+        heapify(same)
+        cur_engine, r, c= heappop(same)
+        return (r, c), cur_engine
     return (0, 0), -1
 
 
