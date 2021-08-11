@@ -1,47 +1,5 @@
-## < 코딩 스터디 Rule >
 
-
-
-21-01-05 ~
-
-1. 스터디 날짜/시간 정하기 - 최대한 고정으로
-   1. 주 1회(코딩 테스트 공부 2시간 + CS 전공 공부 1시간)
-
-      #### - 첫 스터디 : 21-01-05 
-
-   4. 일시 : 매주 수요일 오후
-
-   5. 장소: 스터디플러스 충남대점
-
-2. 문제 풀이 사이트
-   1. 백준 삼성 기출 - 골드 문제 위주
-      1. https://www.acmicpc.net/workbook/view/1152
-      2. https://www.acmicpc.net/workbook/view/2771
-      3. 난이도에 따라 주 3 - 4문제
-   2. 프로그래머스 - 코딩테스트 고득점 KIT
-      1. https://programmers.co.kr/learn/challenges
-
-3. 어디에서 코드 공유할 것인지?
-
-   1. #### Github - https://github.com/chelseashin/AlgorithmStudy2021
-
-4. 코드 작성 방식(중요):star:
-
-   1. 코드 가독성 있게 작성(주석 잘 달기)
-   2. 사용한 알고리즘, 로직 정리해서 스터디 참여
-   3. 풀었던 문제는 옛날에 풀었던 코드 말고 새로 본인이 풀어서 올리기(양심껏)
-   4. 코드 첫 줄에 문제 푸는 데 걸린 시간 적기(ex. 약 2시간 10분)
-   5. 시행착오 겪은 부분, 새로 알게 된 것(알고리즘)들, 왜 오래 걸렸는지 등 작성 - 다른 사람들과 공유
-
-5. 스터디 참여 강제성 부여
-
-   1. 혼자 힘으로 풀기 힘든 경우, 타 블로그 보면서 충분히 혼자 공부, 방법 연구해서 클론코딩한 것은 인정
-
-
-
-### 다같이 파이팅 합시다:thumbsup:
-
-
+### 알고리즘 풀이 리스트! :thumbsup:
 
 ---
 
@@ -265,6 +223,16 @@
    4. 소수의 연속합: https://www.acmicpc.net/problem/1644
    5. 주사위 윷놀이: https://www.acmicpc.net/problem/17825
    6. 카드 정렬하기: https://www.acmicpc.net/problem/1715
+
+
+##### :ballot_box_with_check: 33주차 문제 리스트(21-08-18)
+   1. 2048 (Easy): https://www.acmicpc.net/problem/12100
+   2. 주사위굴리기: https://www.acmicpc.net/problem/14499
+   3. 큐빙: https://www.acmicpc.net/problem/5373
+   4. 사다리조작: https://www.acmicpc.net/problem/15684
+   5. 드래곤 커브: https://www.acmicpc.net/problem/15685
+   6. 나무재테크: https://www.acmicpc.net/problem/16235
+   7. 게리멘더링: https://www.acmicpc.net/problem/17471
 
 
 
