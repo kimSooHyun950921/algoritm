@@ -231,7 +231,7 @@
    3. 큐빙: https://www.acmicpc.net/problem/5373
    4. 사다리조작: https://www.acmicpc.net/problem/15684 (O)
    5. 드래곤 커브: https://www.acmicpc.net/problem/15685 (O)
-   6. 나무재테크: https://www.acmicpc.net/problem/16235
+   6. 나무재테크: https://www.acmicpc.net/problem/16235 (O)
    7. 게리멘더링: https://www.acmicpc.net/problem/17471
    8. 문자열 게임2: https://www.acmicpc.net/problem/20437 (O)
    9. 마법사 상어와 블리자드: https://www.acmicpc.net/problem/21611 (O)
