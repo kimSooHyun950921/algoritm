@@ -28,23 +28,24 @@
 - 현재 나무 세기
 
 # code snippet
+1. 비료먹이는부분
     ```python
-    def eat_fertilizer(tree, board):
-        for i in range(len(board)):
-            for j in range(len(board)):
-                new_tree = deque([])# 데크추가
-                dead_tree = 0 # 죽은나무의 비료들을 저장하기 위한것
-                while tree[i][j]: # 현재 위치를 돌면서
-                    year = tree[i][j].popleft() # 작은것들부터 제거
-                    if  board[i][j] - year >= 0: # 비료를 줄 수 있으면
-                        board[i][j] -= year # 비료를 제거하고
-                        new_tree.append(year+1) #새로운 나무리스트에 추가해줌
-                    else:
-                        dead_tree += year // 2 # 비료를 줄 수 없으면 나무는 죽으므로
-                                            # 죽은나무에 비료 추가
-                tree[i][j]= new_tree # 새로운 나무들을 넣어줌
-                board[i][j] += dead_tree # 죽은나무들의 비료의 총합은 비료에 추가해줌
-    ```
+        def eat_fertilizer(tree, board):
+            for i in range(len(board)):
+                for j in range(len(board)):
+                    new_tree = deque([])# 데크추가
+                    dead_tree = 0 # 죽은나무의 비료들을 저장하기 위한것
+                    while tree[i][j]: # 현재 위치를 돌면서
+                        year = tree[i][j].popleft() # 작은것들부터 제거
+                        if  board[i][j] - year >= 0: # 비료를 줄 수 있으면
+                            board[i][j] -= year # 비료를 제거하고
+                            new_tree.append(year+1) #새로운 나무리스트에 추가해줌
+                        else:
+                            dead_tree += year // 2 # 비료를 줄 수 없으면 나무는 죽으므로
+                                                # 죽은나무에 비료 추가
+                    tree[i][j]= new_tree # 새로운 나무들을 넣어줌
+                    board[i][j] += dead_tree # 죽은나무들의 비료의 총합은 비료에 추가해줌
+        ```
 2. 입력받는부분
     ```python
     board_size, num_of_tree, year = map(int, input().rstrip().split(" "))
@@ -56,17 +57,18 @@
         tree[x-1][y-1].append(old) #나이는 작은순서대로 들어온다고 가정
     ```
 3. 전파하는 부분
-```python
-def propagate(board_size, board, tree):
-    for i in range(board_size):
-        for j in range(board_size):
-            for idx in range(len(tree[i][j])):
-                if tree[i][j][idx] % 5 == 0:
-                    for dr, dc in zip([-1, 0, 1, 0, -1, 1, -1, 1], [0, -1, 0, 1, 1, -1, -1, 1]):
-                        nr, nc = i + dr, j + dc
-                        if 0 <= nr < board_size and 0 <= nc < board_size:
-                            tree[nr][nc].appendleft(1) # 앞에서부터 추가
-```
+
+    ```python
+    def propagate(board_size, board, tree):
+        for i in range(board_size):
+            for j in range(board_size):
+                for idx in range(len(tree[i][j])):
+                    if tree[i][j][idx] % 5 == 0:
+                        for dr, dc in zip([-1, 0, 1, 0, -1, 1, -1, 1], [0, -1, 0, 1, 1, -1, -1, 1]):
+                            nr, nc = i + dr, j + dc
+                            if 0 <= nr < board_size and 0 <= nc < board_size:
+                                tree[nr][nc].appendleft(1) # 앞에서부터 추가
+    ```
 # 복기할것
 - 첫번째 버전: 
     - heappush로 구성
