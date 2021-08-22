@@ -228,17 +228,24 @@
 ##### :ballot_box_with_check: 33주차 문제 리스트(21-08-22)
    1. 2048 (Easy): https://www.acmicpc.net/problem/12100 (A)
    2. 주사위굴리기: https://www.acmicpc.net/problem/14499 (O)
-   3. 큐빙: https://www.acmicpc.net/problem/5373
-   4. 사다리조작: https://www.acmicpc.net/problem/15684 (O)
-   5. 드래곤 커브: https://www.acmicpc.net/problem/15685 (O)
-   6. 나무재테크: https://www.acmicpc.net/problem/16235 (O)
-   7. 게리멘더링: https://www.acmicpc.net/problem/17471
-   8. 문자열 게임2: https://www.acmicpc.net/problem/20437 (O)
-   9. 마법사 상어와 블리자드: https://www.acmicpc.net/problem/21611 (O)
-   10. 부분문자열: https://www.acmicpc.net/problem/16916 (O)
-   11. 동전뒤집기: https://www.acmicpc.net/problem/1285 (O)
-   12. 미친로봇: https://www.acmicpc.net/problem/1405 (O)
+   3. 사다리조작: https://www.acmicpc.net/problem/15684 (O)
+   4. 드래곤 커브: https://www.acmicpc.net/problem/15685 (O)
+   5. 나무재테크: https://www.acmicpc.net/problem/16235 (O)
+   6. 문자열 게임2: https://www.acmicpc.net/problem/20437 (O)
+   7. 마법사 상어와 블리자드: https://www.acmicpc.net/problem/21611 (O)
+   8. 부분문자열: https://www.acmicpc.net/problem/16916 (O)
+   9. 동전뒤집기: https://www.acmicpc.net/problem/1285 (O)
+   10. 미친로봇: https://www.acmicpc.net/problem/1405 (O)
 
+
+##### :ballot_box_with_check: 34주차 문제 리스트(21-08-29)
+   1. 색종이 붙이기: https://www.acmicpc.net/problem/17136
+   2. 문제집: https://www.acmicpc.net/problem/1766
+   3. 회문은 회문아니야!: https://www.acmicpc.net/problem/15927
+   4. 패턴: https://www.acmicpc.net/problem/1104
+   5. 프로그래머스: https://programmers.co.kr/learn/courses/30/lessons/72412?language=python3
+   6. 2048 (Easy): https://www.acmicpc.net/problem/12100
+   7. 미세먼지 안녕!: https://www.acmicpc.net/problem/17144
 
 
 
