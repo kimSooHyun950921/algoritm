@@ -239,15 +239,18 @@
 
 
 ##### :ballot_box_with_check: 34주차 문제 리스트(21-08-29)
-   1. 색종이 붙이기: https://www.acmicpc.net/problem/17136
-   2. 문제집: https://www.acmicpc.net/problem/1766
-   3. 회문은 회문아니야!: https://www.acmicpc.net/problem/15927
-   4. 패턴: https://www.acmicpc.net/problem/1104
-   5. 프로그래머스: https://programmers.co.kr/learn/courses/30/lessons/72412?language=python3
-   6. 2048 (Easy): https://www.acmicpc.net/problem/12100
-   7. 미세먼지 안녕!: https://www.acmicpc.net/problem/17144
+   1. 색종이 붙이기: https://www.acmicpc.net/problem/17136 (A)
+   2. 문제집: https://www.acmicpc.net/problem/1766 (O)
+   3. 회문은 회문아니야!: https://www.acmicpc.net/problem/15927 (O) 
 
 
+##### :ballot_box_with_check: 35주차 문제 리스트(21-09-05)
+   1. 사회망서비스 : https://www.acmicpc.net/problem/2533
+   2. 빵집: https://www.acmicpc.net/problem/3109
+   3. 행렬제곱: https://www.acmicpc.net/problem/10830
+   4. 모노미노도미노 2: https://www.acmicpc.net/problem/20061
+   5. 다이어트: https://www.acmicpc.net/problem/1484
+   6. 색종이 붙이기: https://www.acmicpc.net/problem/17136
 
 
 ------
