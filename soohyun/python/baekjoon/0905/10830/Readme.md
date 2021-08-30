@@ -32,7 +32,9 @@ def matmul(A, B):
 ```
 
 # 복기할것
-- 이미 결과는 dp가 가지고 있다는것을 가정하기때문에, ```matrix_data[num] = matmul(multiple(num//2, matrix_data), multiple(num//2, matrix_data))``` 와 같이 써도 두번 연산을 안하게된다. 
+- 이미 결과는 dp가 가지고 있다는것을 가정하기때문에, 
+```matrix_data[num] = matmul(matrix_data[num//2], matrix_data[num//2]``` 이렇게 쓰지 않고 
+```matrix_data[num] = matmul(multiple(num//2, matrix_data), multiple(num//2, matrix_data))``` 와 같이 써도 두번 연산을 안하게된다. 
 - 메모리에러:
     - dp의 자료구조를 리스트를 썼더니 메모리 에러남 사용하지 않는 숫자도 메모리에 할당해서 그런가보다
 - 틀렸습니다
