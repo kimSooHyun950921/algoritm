@@ -19,7 +19,7 @@
    1. 1, 2, 3 더하기 - https://www.acmicpc.net/problem/9095
    2. 좋은수열 - https://www.acmicpc.net/problem/2661
    3. 가로수 - https://www.acmicpc.net/problem/2485
-   4. 골드바흐의 추측 - https://www.acmicpc.net/problem/6588
+   4. 골드바흐의 추측 - https://www.acmicpc.net/problem/658ㅁ8
    5. 벽 부수고 이동하기 - https://www.acmicpc.net/problem/2206
    6. 영역 구하기 - https://www.acmicpc.net/problem/2583
 
@@ -245,12 +245,36 @@
 
 
 ##### :ballot_box_with_check: 35주차 문제 리스트(21-09-05)
-   1. 사회망서비스 : https://www.acmicpc.net/problem/2533
-   2. 빵집: https://www.acmicpc.net/problem/3109
-   3. 행렬제곱: https://www.acmicpc.net/problem/10830
-   4. 모노미노도미노 2: https://www.acmicpc.net/problem/20061
-   5. 다이어트: https://www.acmicpc.net/problem/1484
-   6. 색종이 붙이기: https://www.acmicpc.net/problem/17136
+   1. 행렬제곱: https://www.acmicpc.net/problem/10830
+   2. 다이어트: https://www.acmicpc.net/problem/1484   
+
+
+##### :ballot_box_with_check: 36주차 문제 리스트(21-09-12)
+   1. 앱: https://www.acmicpc.net/problem/7579
+   2. 종이조각: https://www.acmicpc.net/problem/14391
+   3. 두 배열의 합: https://www.acmicpc.net/problem/2143
+   4. 벽 부수고 이동하기 3: https://www.acmicpc.net/problem/16933
+   5. 보석쇼핑: https://programmers.co.kr/learn/courses/30/lessons/67258
+
+##### :ballot_box_with_check: 37주차 문제 리스트(21-09-19)
+   1. 앱: https://www.acmicpc.net/problem/7579
+
+##### :ballot_box_with_check: 39주차 문제 리스트(21-10-03)
+   1. 개똥벌레: https://www.acmicpc.net/problem/3020
+   2. DSLR: https://www.acmicpc.net/problem/9019
+   3. 합이 0인 네 정수: https://www.acmicpc.net/problem/7453
+   4. 세용액: https://www.acmicpc.net/problem/2473
+   5. 열쇠: https://www.acmicpc.net/problem/9328
+
+##### :ballot_box_with_check: 40주차 문제 리스트(21-10-10)
+   1. 괄호추가하기: https://www.acmicpc.net/problem/16637
+   2. 파이프 옮기기1: https://www.acmicpc.net/problem/17070
+   3. ⚾: https://www.acmicpc.net/problem/17281
+   4. 거울 설치: https://www.acmicpc.net/problem/2151
+   5. 두 동전: https://www.acmicpc.net/problem/16197
+   6. 암호 : https://www.acmicpc.net/problem/1394
+
+
 
 
 ------
